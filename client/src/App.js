@@ -1,21 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import LoginPage from './pages/LoginPage.js';
-import SignupPage from './pages/SignupPage.js';
-import { createRoot } from 'react-dom/client';
+import Home from './pages/Home';
+import LoginPage from './pages/LoginPage';
+import SignupPage from './pages/SignupPage';
+
 import {
   createBrowserRouter,
   RouterProvider,
   Route,
   Link,
 } from 'react-router-dom';
-import Home from './pages/Home.js';
-import CartPage from './pages/CartPage.js';
-import Checkout from './pages/Checkout.js';
-import ProductDetail from './features/product-list/components/ProductDetail.js';
-import ProductDetailPage from './pages/ProductDetailPage.js';
-
+import Cart from './features/cart/Cart';
+import CartPage from './pages/CartPage';
+import Checkout from './pages/Checkout';
+import ProductDetailPage from './pages/ProductDetailPage';
 const router = createBrowserRouter([
   {
     path: '/',
