@@ -111,7 +111,6 @@ export const productSlice = createSlice({
 
 export const { increment } = productSlice.actions;
 
-// Error is happening on line 115
 export const selectAllProducts = (state) => state.product.products;
 export const selectBrands = (state) => state.product.brands;
 export const selectCategories = (state) => state.product.categories;
